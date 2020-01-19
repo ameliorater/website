@@ -1,0 +1,50 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "hugo-ink"
+title = "Amelia"
+
+[Params]
+  subtitle = "[Coding](http://github.com/ameliorater), [pictures](http://amelialev.smugmug.com), etc."
+  mainSections = ["post","posts"]
+  avatar = "images/crane-cropped.png"
+  favicon = "images/crane-cropped.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = false
+  socialShare = false
+  showRelatedPosts = true   
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Physics Notes"
+url = "https://drive.google.com/drive/folders/1Gbcisiz6pk7D--V1Moe99qDy-IKnc3Ik?usp=sharing"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+# Social media links which shows up on site header.
+# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
+[[params.social]]
+name = "Github"
+icon = "images/github.svg"
+url = "https://github.com/vividvilla/ezhil"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/gohugoio"
+
+# Enable tags.
+[taxonomies]
+   tag = "tags"
