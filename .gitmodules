@@ -1,0 +1,4 @@
+[submodule "ameliorater.github.io"]
+	path = ameliorater.github.io
+	url = https://github.com/ameliorater/ameliorater.github.io.git
+	branch = master
